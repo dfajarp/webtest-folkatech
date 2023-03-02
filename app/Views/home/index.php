@@ -24,7 +24,7 @@
          </button>
       </div>
 
-      <div class="products grid gap-4 grid-cols-2 grid-rows-2"></div>
+      <div class="products grid gap-4 grid-cols-2  md:grid-cols-3 grid-rows-2"></div>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>

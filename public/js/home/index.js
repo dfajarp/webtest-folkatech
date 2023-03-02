@@ -23,7 +23,7 @@ const sendCard = (v) => {
   console.log(v);
   let html = `
   <button onClick="detailProduct(${v.id})">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg px-6">
           <img class="w-full" src="${
             'http://localhost:8080/img/' + v.picture
           }" alt="image product">
@@ -45,7 +45,7 @@ const sendCard = (v) => {
               <span class="fa fa-star"></span><br>
               <span class="text-xs text-gray-300">160 reviews</span>
             </div>
-            <div class="pr-6">
+            <div class="">
               <img class="h-6 w-6" src="https://cdn-icons-png.flaticon.com/512/535/535285.png" alt="">
               <!-- https://cdn-icons-png.flaticon.com/512/535/535183.png -->
             </div>
